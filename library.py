@@ -15,9 +15,9 @@ def available_books():
 
 
 # 1.2 TODO: Run the 'available_books' function
-
-    print('-----------------------')
 available_books()
+print('-----------------------')
+
 # 1.3 TODO: Create a function named 'check_out' that removes a book from the books list
 # Parameters: book_title (string)
 # Return: Not needed for this function
@@ -32,10 +32,10 @@ def check_out(book_title):
 check_out("SAPIENS")
 
 # 1.5 TODO: Run the 'available_books' function again to see if the book was checked out
-
+available_books()
 
 print('-----------------------')
-available_books()
+
 # 1.6 TODO: Create a function 'check_in' that adds a book to the end of the books list
 # Parameters: book_title (string)
 # Return: Not needed for this function
@@ -54,9 +54,9 @@ print('-----------------------')
 # Return: Not needed for this function
 def search_by_name(book_title):
     if book_title in books:
-        print("Available")
+        print('Available')
     else:
-        print("Not Available")
+        print('Not Available')
 
 # 1.10 TODO: Search for the book 'JUST MERCY'
 search_by_name('JUST MERCY')
